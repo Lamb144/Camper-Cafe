@@ -1,0 +1,81 @@
+/* We have created a seperate styles.css file 
+Since ther will be many more styles, it's best to put all the styles in a seperate file and link to it. */
+
+/* Below are our introduction to the type selectors */
+h1, h2, p {
+    text-align: center;
+}
+body {
+    padding: 20px;
+    background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
+    font-family: sans-serif;
+}
+h1 {
+    font-size: 40px; 
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+h2 {
+    font-size: 30px;
+}
+.established {
+    font-style: italic;
+}
+.menu {
+    width: 80%; margin: auto;
+    max-width: 500px;
+    padding: 20px;
+    background-color: burlywood;
+}
+h1, h2 {
+    font-family: Impact,serif;
+}
+.bottom-line {
+    margin-top: 25px;
+}
+.flavor, .dessert {
+    width: 75%;
+    text-align: left;
+}
+.price {
+    font-size: 18px;
+    width: 25%;
+    text-align: right;
+}
+.item p {
+    font-size: 18px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: inline-block;
+}
+hr {
+    background-color: brown;
+    border-color: brown;
+    height: 2px;
+}
+/* FOOTER */
+footer {
+    font-size: 14px;
+
+}
+a {
+    color: black;
+}
+a:visited {
+    color: black;
+}
+a:hover {
+    color: whitesmoke;
+}
+a:active {
+    color: white;
+}
+.address {
+    margin-bottom: 5px;
+}
+img {
+    display: block;
+    margin-top: -25px;
+    margin-left: auto;
+    margin-right: auto;
+}
